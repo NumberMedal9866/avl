@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: none;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    list-style: none;
+    font-family: I4;
+    // scroll-behavior: smooth;
+}
+.container{
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 9px;
+    // overflow-x: hidden;
+}
+body{
+    background: #fff;
+    position: relative;
+    overflow-x: hidden !important;
+    // overflow-y: hidden; 
+}
+@mixin media($size){
+    @media (max-width: #{$size}px) {
+      @content;
+    }
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+::-webkit-scrollbar-track {
+    background: #00000000;        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #0D0D0D;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 2px solid #80808080;  /* creates padding around scroll thumb */
+  }
+  

@@ -1,0 +1,579 @@
+<template>
+            <div class="logo-mob">
+                <img src="@/assets/images/logoThree.png" alt="">
+            </div>
+    <header class="headerr container">
+        <div class="container">
+            <div class="title">
+                <h1>AVL NETWORKS CO., LTD</h1>
+                <h1>Co., LTD.</h1>
+            </div>
+            <div class="title-ad">
+                <div class="title-ad-f title-ad-s">
+                    <span>Artcos</span>
+                    <img src="@/assets/images/handshake.svg" alt="">
+                </div>
+                <div class="title-ad-s">
+                    <span>Co.,</span>
+                    <h3>LTD.</h3>
+                <div class="effectt">
+                    <div ref="blob al" class="blobb al"></div>
+                </div>
+                </div>
+            </div>
+            <p>Artcos provides a variety of innovative and comprehensive IT solutions. We deliver quality services in the most efficient way, and our experts will work collaboratively with you to customize our offerings to your particular needs. Book a meeting with one of our consultants to hear more about how we can assist your operation.</p>
+            <div class="btn-holder">
+                <div><router-link to="/services">See our services</router-link></div>
+                <div><router-link to="/contact">Our info</router-link></div>
+            </div>
+            <img class="avatar" src="@/assets/images/logoTwo.png" alt="">
+        </div>
+    </header>
+    <!-- тут я удалииииллллл -->
+    <section class="container"> 
+        <div class="container">
+            <h2 class="work">About us</h2>
+            <div class="card-holder">
+                <div class="card hidden">
+                    <div class="card-info">
+                        <!-- <img src="@/assets/images/Subbi.svg" alt=""> -->
+                        <h3>What we do</h3>
+                        <p>Artcos Co., LTD. operates in the markets of digital, industrial, and construction products. Despite its relatively short existence, the company holds a significant position in the market, contributing to the rapid development of the country's economy. The main focus lies in supplying equipment, materials, spare parts, and special equipment to businesses of varying sizes. Our operations extend to countries like China, South Korea, Taiwan, Thailand, UAE, CIS, USA, and EU member states. Notably, we maintain no direct or indirect associations with countries included in the sanctions list (OFAC).</p>
+                        <!-- <a href="https://vuecinephile.vercel.app/#/" target="_blank">Visit site</a> -->
+                        <router-link to="/services">Our services ➔</router-link>
+                    </div>
+                    <img src="@/assets/images/logo.png" alt="" class="card-info-img proj">
+                </div>
+                <div class="card hidden">
+                    <div class="card-info">
+                        <!-- <img src="@/assets/images/Subbi.svg" alt=""> -->
+                        <h3>Thriving in Digital Appliance Innovation</h3>
+                        <p class="alter uno">The production and sale of digital and home appliances stand as promising sectors in our activities. This domain is highly competitive, encompassing personal computers, smartphones, tablets, laptops, and other high-tech equipment integral to modern life. Beyond product supply, our company offers comprehensive transportation services for goods worldwide via any mode of transport. While we cover a broad spectrum of transport services, our primary focus remains on delivering cargo according to the most convenient and cost-effective scheme for the cargo owner. Additionally, we specialize in sourcing necessary products or partners, installation, supervision, and technical support for supplied products. As a young but rapidly evolving company, we've forged partnerships with major manufacturers. Our core ethos centers on being customer-oriented, constantly striving for improvement in this direction. Our team's reality reflects a multitude of successfully completed orders, a robust base of loyal customers, collaborations with industry leaders, and an unwavering commitment to service quality.</p>
+                        <p class="alter dos">
+                        We excel in digital and home appliances, offering competitive products like computers, smartphones, tablets, and more. Our focus is on global transportation services, ensuring efficient and cost-effective delivery. Additionally, we specialize in product sourcing, installation, and technical support. With strong partnerships and a customer-first approach, we've built a track record of successful orders and loyal customers.
+                        </p>
+                        <router-link to="/services">Our services ➔</router-link>
+                    </div>
+                    <!-- <img src="@/assets/images/pearlogo.png" alt="" class="card-info-img project"> -->
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="container">
+        <div class="container">
+            <h2 class="work gap">Our contact information</h2>
+            <div class="message">
+                <div class="message-nav">
+                    <img src="@/assets/images/mac.svg" alt="">
+                    <p>Our contact information</p>
+                </div>
+                <div class="message-main">
+                    <form @submit.prevent="handleSubmit" ref="form">
+                        <div class="message-main-input">
+                            <span>Email:</span>
+                            <span>info@artcosgrp.com</span>
+                        </div>
+                        <div class="message-main-input">
+                            <span>Number:</span>
+                            <span>+66 820 780 002</span>
+                        </div>
+                        <div class="message-main-input">
+                            <span>Tax Id Number:</span>
+                            <span>0105565005522</span>
+                        </div>
+                        <span class="message-main-address">Address:</span>
+                        <iframe class="fir" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1937.8869259157639!2d100.56511820732361!3d13.7321468298223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29f028e9e1de7%3A0xb100bede8f20a1ad!2s25%20Sukhumvit%20Rd%2C%20Khwaeng%20Khlong%20Tan%2C%20Khet%20Khlong%20Toei%2C%20Krung%20Thep%20Maha%20Nakhon%2010110%2C%20Thailand!5e0!3m2!1sen!2s!4v1703347367752!5m2!1sen!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe class="nd" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1937.8869259157639!2d100.56511820732361!3d13.7321468298223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29f028e9e1de7%3A0xb100bede8f20a1ad!2s25%20Sukhumvit%20Rd%2C%20Khwaeng%20Khlong%20Tan%2C%20Khet%20Khlong%20Toei%2C%20Krung%20Thep%20Maha%20Nakhon%2010110%2C%20Thailand!5e0!3m2!1sen!2s!4v1703347367752!5m2!1sen!2s" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="header-line"></div>
+</template>
+
+<script setup>
+    import { ref, onMounted, onBeforeUnmount } from 'vue';
+
+const observer = ref(null); // Initialize the observer as null
+
+// Define a function to initialize the Intersection Observer
+const initializeObserver = () => {
+  observer.value = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('show');
+      } else {
+        entry.target.classList.remove('show');
+      }
+    });
+  });
+};
+
+// Call the initializeObserver function when the component is mounted
+onMounted(() => {
+  initializeObserver();
+  const hiddenElements = document.querySelectorAll('.hidden');
+  hiddenElements.forEach((el) => observer.value.observe(el));
+});
+
+// Clean up the observer when the component is unmounted
+onBeforeUnmount(() => {
+  if (observer.value) {
+    observer.value.disconnect();
+  }
+});
+</script>
+
+<style lang="scss" scoped>
+    .sdf{
+        color: red;
+    }
+     .projects{
+    &-title{
+        margin-bottom: 60px;
+        span{
+            color: #80808080;
+            font-family: I4;
+            font-weight: 400;
+            font-size: 24px;
+            letter-spacing: -0.456px;
+            // @include media(500){
+            //     font-size: 16px;
+            // }
+        }
+    }
+ }
+ .top{
+    margin-top: 60px;
+ }
+ .proj{
+    position: inherit;
+    width: 315px;
+    margin-left: 100px;
+    padding: 20px;
+    border-radius: 32px;
+    border: 1px solid #383737;
+ }
+ .project{
+    position: inherit;
+    width: 280px;
+    // height: 200px;
+    margin-left: 100px;
+    padding: 60px;
+    border-radius: 32px;
+    border: 1px solid #383737;
+    background: white;
+ }
+</style>
+
+
+\\
+
+
+
+.title{
+    position: relative;
+    overflow-x: clip;
+    // display: flex;   
+    gap: 15px;
+    margin-bottom: 50px;
+    @include media (780){
+        display: none;
+    }
+    h1:first-of-type{
+        color: #181818;
+        font-family: I8;
+        font-weight: 800;
+        font-size: 80px;
+        padding-top: 45px;
+    }
+    h1:last-of-type{
+        // color: var(--basic-dark-gray, #808080);
+        color: #181818;
+        font-family: I8;
+        font-weight: 800;
+        font-size: 70px;
+        margin-top: 0px;
+    }
+    &-ad{
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 30px;
+        @include media(780){
+            display: flex;
+        }
+        &-f{
+            display: flex;
+            align-items: center;
+            gap: 22px;
+            h3{
+                color: #808080;
+                font-family: I8;
+                font-weight: 800;
+                font-size: 48px;
+            }
+            img{
+                width: 50px;
+            }
+        }
+        &-s{
+            display: flex;
+            gap: 10px;
+            h3{
+                color: #808080;
+                font-family: I8;
+                font-weight: 800;
+                font-size: 48px;
+            }
+            span{
+                color: white;
+                font-family: I8;
+                font-weight: 800;
+                font-size: 48px;
+            }
+        }
+    }
+}
+.logo-mob{
+    // overflow: hidden;
+    // overflow-y: visible !important;
+    display: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    @include media (780){
+        display: flex;
+    }
+    img{
+        display: none;
+        width: 100px;
+        @include media(780){
+            display: flex;
+        }
+    }
+}
+.headerr{
+    overflow-x: clip;
+    position: relative;
+    margin-top: 170px;
+    margin-bottom: 200px;
+    @include media (780){
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .container{
+        position: relative;
+    }
+    p{
+        color: var(--basic-dark-gray, #808080);
+        max-width: 500px;
+        margin-bottom: 50px;
+        font-family: I5;
+        font-weight: 500;
+        line-height: 25px;
+    }
+}
+
+
+.del{
+    display: none;
+}
+
+
+
+
+// p{
+//     color: var(--basic-dark-gray, #808080);
+//     max-width: 500px;
+//     margin-bottom: 50px;
+//     font-family: I5;
+//     font-weight: 500;
+//     line-height: 25px;
+// }
+.btn-holder{
+    display: flex;
+    gap: 16px;
+    @include media(780){
+        flex-direction: column;
+    }
+    div{
+        @include media(780){
+            width: 100%;
+        }
+        width: 200px;
+        height: 60px;
+        border-radius: 9px;
+        box-shadow: 0px 7px 4px 0px rgba(0, 0, 0, 0.15), 0px 2px 4px 0px rgba(255, 255, 255, 0.08) inset, 0px 1px 2px 0px rgba(255, 255, 255, 0.02) inset;
+        background: var(--basic-onyx, #181818);
+        transition: 1s;
+        // &:hover{
+        //     background: rgb(90, 90, 90);
+        //     a{
+        //         color: #000;
+        //     }
+        // }
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        a{
+            color: white;
+            width: 100%;
+            height: 100%;
+            // text-align: center;
+            display: flex;
+            justify-content: center; align-items: center;
+        }
+    }
+}
+.avatar{
+    position: absolute;
+    // top: -5px;
+    top: 0;
+    right: 0px;
+    top: 130px;
+    width: 400px;
+    z-index: -1;
+    @include media (780){
+        display: none;
+    }
+}
+.work{
+    font-size: 48px;
+    font-family: I7;
+    font-weight: 700;
+    color: #181818;
+    margin-bottom: 32px;
+}
+.card{
+    @include media (780){
+        padding: 30px;
+    }
+    padding: 60px;
+    border-radius: 32px;
+    // opacity: 0.3;
+    border: 1px solid var(--Light-Card-Border, #EBEBEB);
+    background: var(--Light-Card-BG, #f6f6f63b);
+    display: flex;
+    position: relative;
+    &-holder{
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        margin-bottom: 100px;
+        @include media (780){
+            margin-bottom: 20px;
+        }
+    }
+    &-info{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 16px;
+        a{
+            font-family: I5;
+            font-weight: 500;
+            font-size: 18px;
+            color: #181818;
+            margin-top: 30px;
+        }
+        img{
+            width: max-content;
+        }
+        h3{
+            font-family: I8;
+            font-weight: 800;
+            font-size: 32px;
+            max-width: 503px;
+            color: #181818 !important;
+        }
+        p{
+            color: var(--basic-dark-gray, #808080);
+            max-width: 500px;
+            // margin-bottom: 50px;
+            font-family: I5;
+            font-weight: 500;
+            line-height: 25px;
+        }
+        &-img{
+            position: absolute !important;
+            bottom: 50%;
+            transform: translate(0, 50%);
+            padding-bottom: 25px;
+            width: 350px;
+            margin-right: 20px;
+            background: #fff;
+            right: 0px;
+            @include media(780){
+                display: none;
+            }
+        }
+    }
+    &-catalog{
+        flex-wrap: wrap;display: flex;
+        justify-content: center;
+        gap: 13px;
+        &-title{
+            font-family: I7;
+            font-weight: 700;
+            font-size: 48px;
+            color: white;
+            margin-bottom: 32px;
+        }
+    }
+}
+.infocard{
+    display: flex;
+    flex-direction: column;
+    // justify-content: space-between;
+    align-items: center;
+    border-radius: 32px;
+    background: #1515156f;
+    // width: 400px;
+    width: 470px;
+    max-height: 490px;
+    overflow: hidden;
+    &-img{
+        width: max-content;
+        margin-bottom: 39px;
+        width: 200px;
+        &2{
+            width: 400px;
+        }
+    }
+    h3{    
+        padding-top: 60px;
+        font-family: I8;
+        font-weight: 800;font-size: 32px;
+        color: white;
+        margin-bottom: 16px;
+    }
+    span{
+        color: #808080;
+        font-family: I4;
+        font-weight: 400;
+        font-size: 16px;
+        margin-bottom: 65px;
+    }
+    p{
+        margin-bottom: 0;
+        text-align: center;
+        color: var(--basic-dark-gray, #808080);
+        max-width: 500px;
+        margin-bottom: 50px;
+        font-family: I5;
+        font-weight: 500;
+        line-height: 25px;padding: 0 5px;
+    }
+    &-proj{
+        width: 400px;
+        margin-top: 20px;
+    }
+
+}
+.about{
+    margin-bottom: 114px;
+}
+.footer{
+    position: relative;
+    &-holder{
+        margin: 42px;
+        display: flex;justify-content: space-between;
+        @include media(780){
+            flex-direction: column-reverse;
+            margin: 15px;
+            margin-top: 60px;
+        }
+    }
+    &-logo{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        @include media(780){
+            margin-bottom: 100px;
+        }
+        img{
+            width: 100px;
+            @include media (780){
+                width: 120px;
+                margin-bottom: 30px;
+            }
+        }
+        span{
+            color: #80808080;
+            font-size: 14px;
+            letter-spacing: -0.084px;
+        }
+    }
+    &-ul{
+        display: flex;
+        gap: 120px;
+        @include media(780){
+            // flex-direction: column;
+            // gap: 40px;
+            justify-content: start;
+            gap: 50px;
+            margin-bottom: 80px;
+        }
+        ul{
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            color: white;
+            a{
+                color: #C5C5C5;
+                font-family: I4;
+                font-weight: 400;
+                font-size: 16px;
+                p{
+                    color: var(--basic-dark-gray, #808080);
+                    max-width: 500px;
+                    margin-bottom: 50px;
+                    font-family: I5;
+                    font-weight: 500;
+                    line-height: 25px;
+                }
+            }
+        }
+    }
+}
+.first{
+    font-family: I7;
+    font-weight: 700;
+    margin-bottom: 32px;
+    @include media(780){
+        margin-bottom: 10px;
+    }
+}
+// @include media 
+.hidden{
+    opacity: 0;
+    transition: 2.5s all;
+    transform: translateX(-30%);
+    filter: blur(5px);
+}
+.show{
+    filter: blur(0px);
+    opacity: 1;
+    transform: translateX(0);
+}
+.alter{
+    max-width: 100% !important;
+}
+h3{
+    color: white !important;
+}
+.uno{
+    display: block;
+    @include media (780){
+        display: none;
+    }
+}
+.dos{
+    display: none;
+    @include media (780){
+        display: block;
+    }
+}

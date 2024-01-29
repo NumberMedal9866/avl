@@ -25,7 +25,7 @@
                 </div>
                 </div>
             </div>
-            <p>Artcos provides a variety of innovative and comprehensive IT solutions. We deliver quality services in the most efficient way, and our experts will work collaboratively with you to customize our offerings to your particular needs. Book a meeting with one of our consultants to hear more about how we can assist your operation.</p>
+            <p>AVL networks provides a variety of innovative and comprehensive IT solutions. We deliver quality services in the most efficient way, and our experts will work collaboratively with you to customize our offerings to your particular needs. Book a meeting with one of our consultants to hear more about how we can assist your operation.</p>
             <div class="btn-holder">
                 <div><router-link to="/services">See our services</router-link></div>
                 <div><router-link to="/contact">Our info</router-link></div>
@@ -42,7 +42,7 @@
                     <div class="card-info">
                         <!-- <img src="@/assets/images/Subbi.svg" alt=""> -->
                         <h3>What we do</h3>
-                        <p>Artcos Co., LTD. operates in the markets of digital, industrial, and construction products. Despite its relatively short existence, the company holds a significant position in the market, contributing to the rapid development of the country's economy. The main focus lies in supplying equipment, materials, spare parts, and special equipment to businesses of varying sizes. Our operations extend to countries like China, South Korea, Taiwan, Thailand, UAE, CIS, USA, and EU member states. Notably, we maintain no direct or indirect associations with countries included in the sanctions list (OFAC).</p>
+                        <p>AVL networks operates in the markets of digital, industrial, and construction products. Despite its relatively short existence, the company holds a significant position in the market, contributing to the rapid development of the country's economy. The main focus lies in supplying equipment, materials, spare parts, and special equipment to businesses of varying sizes. Our operations extend to countries like China, South Korea, Taiwan, Thailand, UAE, CIS, USA, and EU member states. Notably, we maintain no direct or indirect associations with countries included in the sanctions list (OFAC).</p>
                         <!-- <a href="https://vuecinephile.vercel.app/#/" target="_blank">Visit site</a> -->
                         <router-link to="/services">Our services ➔</router-link>
                     </div>

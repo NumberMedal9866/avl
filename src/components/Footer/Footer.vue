@@ -4,7 +4,7 @@
             <div class="footer-holder">
                 <div class="footer-logo">
                     <img src="@/assets/images/logoTwo.png" alt="">
-                    <span>© 2022 AVL network Co., LTD. All Rights Reserved.</span>
+                    <span>© 2023 AVL network Co., LTD. All Rights Reserved.</span>
                 </div>
                 <div class="footer-ul">
                     <ul>

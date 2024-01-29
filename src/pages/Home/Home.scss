@@ -21,11 +21,11 @@
     h1:last-of-type{
         // color: var(--basic-dark-gray, #808080);
         color: red;
-        font-family: I8;
+        font-family: I7;
         font-weight: 800;
         font-size: 70px;
         margin-top: 0px;
-        font-size: 40px;
+        font-size: 30px;
         padding: 15px 0;
     }
     &-ad{
@@ -64,6 +64,12 @@
                 font-weight: 800;
                 font-size: 25px;
                 margin-top: 15px;
+                @include media (420){
+                    font-size: 20px;
+                }
+                // @include media (380){
+                //     font-size: 15px;
+                // }
             }
             // span:last-of-type{
             //     // color: red;
@@ -76,6 +82,12 @@
                 font-family: I8;
                 font-weight: 800;
                 font-size: 40px;
+                @include media (420){
+                    font-size: 35px;
+                }
+                // @include media (380){
+                //     font-size: 30px;
+                // }
             }
         }
     }
@@ -193,6 +205,9 @@
 .card{
     @include media (780){
         padding: 30px;
+        border-radius: 32px;
+        border: 1px solid var(--Light-Card-Border, #EBEBEB);
+        background: var(--Light-Card-BG, #F6F6F6);
     }
     padding: 60px;
     border-radius: 32px;

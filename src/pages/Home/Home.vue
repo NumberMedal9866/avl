@@ -56,7 +56,7 @@
                         <p class="alter dos">
                         We excel in digital and home appliances, offering competitive products like computers, smartphones, tablets, and more. Our focus is on global transportation services, ensuring efficient and cost-effective delivery. Additionally, we specialize in product sourcing, installation, and technical support. With strong partnerships and a customer-first approach, we've built a track record of successful orders and loyal customers.
                         </p>
-                        <router-link to="/services">Our services ➔</router-link>
+                        <router-link to="/services">About us ➔</router-link>
                     </div>
                     <!-- <img src="@/assets/images/pearlogo.png" alt="" class="card-info-img project"> -->
                 </div>
